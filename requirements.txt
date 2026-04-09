@@ -1,0 +1,12 @@
+# Runtime dependencies for ComfyUI-Z-Image-i2L-Node
+#
+# torch, torchvision and safetensors are already provided by ComfyUI itself;
+# they are listed here for completeness when running outside ComfyUI.
+torch>=2.1.0
+torchvision>=0.16.0
+Pillow>=9.0.0
+numpy>=1.24.0
+safetensors>=0.4.0
+# DiffSynth-Studio provides the DINOv3 and ZImageImage2LoRAModel classes
+# that are loaded at runtime by the nodes.
+diffsynth>=0.1.0
